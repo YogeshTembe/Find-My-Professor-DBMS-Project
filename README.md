@@ -18,6 +18,8 @@ Various files and their content:
 
 6)images folder =>background image and logo 
 
+7)Database.sql =>Required database for the project
+
 For more Information check DBMS report :)
 </pre>
 
