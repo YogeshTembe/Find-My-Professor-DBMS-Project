@@ -18,5 +18,6 @@ Various files and their content:
 
 6)images folder =>background image and logo 
 
+For more Information check DBMS report :)
 </pre>
 
