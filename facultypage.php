@@ -41,7 +41,7 @@ $domain=filter_input(INPUT_POST, 'domain');
 
   
 
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PaaswordMYSQL","project");
 
 if (mysqli_connect_errno())
   {
