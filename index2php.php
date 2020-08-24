@@ -13,7 +13,7 @@ $account = filter_input(INPUT_POST, 'account');
 
 if (isset($username)){
     if(isset($password)){
-        $db=mysqli_connect("localhost","username","password","project");
+        $db=mysqli_connect("localhost","usernameMYSQL","passwordMYSQL","projectName");
         
         
         
