@@ -33,7 +33,7 @@ $fourth_hourmon=filter_input(INPUT_POST, 'fourth_hourmon');
 $fifth_hourmon=filter_input(INPUT_POST, 'fifth_hourmon');
 $sixth_hourmon=filter_input(INPUT_POST, 'sixth_hourmon');
 
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
 if (mysqli_connect_errno())
   {
@@ -95,7 +95,7 @@ $fourth_hourtue=filter_input(INPUT_POST, 'fourth_hourtue');
 $fifth_hourtue=filter_input(INPUT_POST, 'fifth_hourtue');
 $sixth_hourtue=filter_input(INPUT_POST, 'sixth_hourtue');
 
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
 if (mysqli_connect_errno())
   {
@@ -158,7 +158,7 @@ $fourth_hourwed=filter_input(INPUT_POST, 'fourth_hourwed');
 $fifth_hourwed=filter_input(INPUT_POST, 'fifth_hourwed');
 $sixth_hourwed=filter_input(INPUT_POST, 'sixth_hourwed');
 
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
 if (mysqli_connect_errno())
   {
@@ -221,7 +221,7 @@ $fourth_hourthu=filter_input(INPUT_POST, 'fourth_hourthu');
 $fifth_hourthu=filter_input(INPUT_POST, 'fifth_hourthu');
 $sixth_hourthu=filter_input(INPUT_POST, 'sixth_hourthu');
 
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
 if (mysqli_connect_errno())
   {
@@ -284,7 +284,7 @@ $fourth_hourfri=filter_input(INPUT_POST, 'fourth_hourfri');
 $fifth_hourfri=filter_input(INPUT_POST, 'fifth_hourfri');
 $sixth_hourfri=filter_input(INPUT_POST, 'sixth_hourfri');
 
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
 if (mysqli_connect_errno())
   {
@@ -346,7 +346,7 @@ $fourth_hoursat=filter_input(INPUT_POST, 'fourth_hoursat');
 $fifth_hoursat=filter_input(INPUT_POST, 'fifth_hoursat');
 $sixth_hoursat=filter_input(INPUT_POST, 'sixth_hoursat');
 
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
 if (mysqli_connect_errno())
   {
@@ -713,7 +713,7 @@ a:after {
                                   
                 <td><input type="text" placeholder="" name="slotmon" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -741,7 +741,7 @@ mysqli_close($con);
                 
                 <td><input type="text" placeholder="" name="first_hourmon" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -795,7 +795,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="third_hourmon" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -822,7 +822,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fourth_hourmon" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -849,7 +849,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fifth_hourmon" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -876,7 +876,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="sixth_hourmon" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -916,7 +916,7 @@ mysqli_close($con);
                                   
                 <td><input type="text" placeholder="" name="slottue" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -944,7 +944,7 @@ mysqli_close($con);
                 
                 <td><input type="text" placeholder="" name="first_hourtue" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -971,7 +971,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="second_hourtue" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -998,7 +998,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="third_hourtue" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1025,7 +1025,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fourth_hourtue" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1052,7 +1052,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fifth_hourtue" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1079,7 +1079,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="sixth_hourtue" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1119,7 +1119,7 @@ mysqli_close($con);
                                   
                 <td><input type="text" placeholder="" name="slotwed" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1147,7 +1147,7 @@ mysqli_close($con);
                 
                 <td><input type="text" placeholder="" name="first_hourwed" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1174,7 +1174,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="second_hourwed" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1201,7 +1201,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="third_hourwed" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1228,7 +1228,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fourth_hourwed" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1255,7 +1255,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fifth_hourwed" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1282,7 +1282,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="sixth_hourwed" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1322,7 +1322,7 @@ mysqli_close($con);
                                   
                 <td><input type="text" placeholder="" name="slotthu" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1350,7 +1350,7 @@ mysqli_close($con);
                 
                 <td><input type="text" placeholder="" name="first_hourthu" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1377,7 +1377,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="second_hourthu" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1404,7 +1404,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="third_hourthu" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1431,7 +1431,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fourth_hourthu" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1458,7 +1458,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fifth_hourthu" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1485,7 +1485,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="sixth_hourthu" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1525,7 +1525,7 @@ mysqli_close($con);
                                   
                 <td><input type="text" placeholder="" name="slotfri" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1553,7 +1553,7 @@ mysqli_close($con);
                 
                 <td><input type="text" placeholder="" name="first_hourfri" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1580,7 +1580,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="second_hourfri" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1607,7 +1607,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="third_hourfri" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1634,7 +1634,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fourth_hourfri" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1661,7 +1661,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fifth_hourfri" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1688,7 +1688,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="sixth_hourfri" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1728,7 +1728,7 @@ mysqli_close($con);
                                   
                 <td><input type="text" placeholder="" name="slotsat" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1756,7 +1756,7 @@ mysqli_close($con);
                 
                 <td><input type="text" placeholder="" name="first_hoursat" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1783,7 +1783,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="second_hoursat" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1810,7 +1810,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="third_hoursat" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1837,7 +1837,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fourth_hoursat" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1864,7 +1864,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="fifth_hoursat" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -1891,7 +1891,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="sixth_hoursat" style="width:50px;" value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
