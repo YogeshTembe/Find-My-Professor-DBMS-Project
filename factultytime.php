@@ -768,7 +768,7 @@ mysqli_close($con);
             ?>"></td>
                 <td><input type="text" placeholder="" name="second_hourmon" style="width:50px;"  value="<?php
                 
-                $con=mysqli_connect("localhost","root","Panda@19","project");
+                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
