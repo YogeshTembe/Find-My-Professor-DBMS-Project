@@ -32,7 +32,7 @@ $hour = filter_input(INPUT_POST, 'hour');
 $Room_Number = filter_input(INPUT_POST, 'Room_Number');
 $mentor=filter_input(INPUT_POST,'mentor');
 
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 // Check connection
 if (mysqli_connect_errno())
   {
@@ -186,7 +186,7 @@ switch($hour){
    case "None": 
        //echo "yes";
    
-           $con=mysqli_connect("localhost","root","Panda@19","project");
+           $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 // Check connection
         if (mysqli_connect_errno())
           {
@@ -224,7 +224,7 @@ switch($hour){
 }
 break;
 case "first break" : 
-    $con=mysqli_connect("localhost","root","Panda@19","project");
+    $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 // Check connection
         if (mysqli_connect_errno())
           {
@@ -261,7 +261,7 @@ case "first break" :
   <?php
 }
 break;
-   case "second break":$con=mysqli_connect("localhost","root","Panda@19","project");
+   case "second break":$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 // Check connection
         if (mysqli_connect_errno())
           {
@@ -298,7 +298,7 @@ break;
   <?php
 }
 break;
-   default :$con=mysqli_connect("localhost","root","Panda@19","project");
+   default :$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 // Check connection
         if (mysqli_connect_errno())
           {
@@ -702,7 +702,7 @@ a:after {
                                                      
                                                     <option>Select Faculty</option>
 <?php
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 // Check connection
         if (mysqli_connect_errno())
           {
@@ -788,7 +788,7 @@ echo "<option value='". $row['faculty number'] ."'>" .$row['first name']." ".$ro
                                                      
                                                     <option>Select Faculty</option>
 <?php
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 // Check connection
         if (mysqli_connect_errno())
           {
