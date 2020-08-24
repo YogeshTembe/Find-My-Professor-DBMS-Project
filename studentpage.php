@@ -41,7 +41,7 @@ $fa=filter_input(INPUT_POST, 'fa');
 
   
 
-$con=mysqli_connect("localhost","root","Panda@19","project");
+$con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
 if (mysqli_connect_errno())
   {
@@ -423,7 +423,7 @@ a:after {
                                         <div class="wrap-input100" name="sfirst_name">
 						<input class="input100" type="text" name="sfirst_name" value="<?php 
                                               
-                                                $con=mysqli_connect("localhost","root","Panda@19","project");
+                                                $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -456,7 +456,7 @@ mysqli_close($con);
                                         <br>
                                         <div class="wrap-input100">
 						<input class="input100" type="text" name="smiddle_name" value="<?php 
-                                               $con=mysqli_connect("localhost","root","Panda@19","project");
+                                               $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -489,7 +489,7 @@ mysqli_close($con);
                                         <br>
                                         <div class="wrap-input100">
 						<input class="input100" type="text" name="slast_name" value="<?php 
-                                               $con=mysqli_connect("localhost","root","Panda@19","project");
+                                               $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -521,7 +521,7 @@ mysqli_close($con);
                                         <br>
                                         
                                         <span style="font-size:20px;">Branch(<?php 
-                                               $con=mysqli_connect("localhost","root","Panda@19","project");
+                                               $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -563,7 +563,7 @@ mysqli_close($con);
                                         
                                         
                                         <span style="font-size:20px;">Semester(<?php 
-                                               $con=mysqli_connect("localhost","root","Panda@19","project");
+                                               $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -611,7 +611,7 @@ mysqli_close($con);
                                         <br>
 		                       <div class="wrap-input100 validate-input">
 						<input class="input100" type="text" name="sphone_number" value="<?php 
-                                               $con=mysqli_connect("localhost","root","Panda@19","project");
+                                               $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -647,7 +647,7 @@ mysqli_close($con);
                                         <br>
                                         <div class="wrap-input100 validate-input">
 						<input class="input100" type="text" name="semail_id" value="<?php 
-                                               $con=mysqli_connect("localhost","root","Panda@19","project");
+                                               $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
@@ -683,7 +683,7 @@ mysqli_close($con);
                                         <br>
                                         <div class="wrap-input100 validate-input">
 						<input class="input100" type="text" name="fa" value="<?php 
-                                               $con=mysqli_connect("localhost","root","Panda@19","project");
+                                               $con=mysqli_connect("localhost","usernameMYSQL","PasswordMYSQL","project");
 
  if (mysqli_connect_errno())
   {
